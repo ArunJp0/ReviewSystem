@@ -1,0 +1,99 @@
+* {
+	margin: 0;
+	padding: 0%;
+	box-sizing: border-box;
+}
+
+.header {
+	width: 100%;
+	/*background-image: linear-gradient(to bottom, #a1c4fd, #c2e9fb);*/
+	background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);
+}
+
+navbar-brand:hover {
+	color: white !important;
+}
+.btn{
+	width: 150px;
+	background-color: #5995fd;
+	border: none;
+	outline: none;
+	height: 49px;
+	border-radius: 49px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin: 10px 0;
+	cursor: pointer;
+	transition: 0.5s;
+  }
+  @media (max-width: 767px) {
+	.nav{
+	  line-height: 4rem;
+	}
+	.btn{
+	  width: 120px;
+	  background-color: #5995fd;
+	  border: none;
+	  outline: none;
+	  height: 49px;
+	  border-radius: 49px;
+	  color: #fff;
+	  text-transform: uppercase;
+	  font-weight: 600;
+	  margin: 10px 0;
+	  cursor: pointer;
+	  transition: 0.5s;
+	}
+	.form1 {
+	  padding: 0rem 1rem;
+	}
+	}
+	.btn:hover {
+		background-color: #4d84e2;
+	}
+	.nav{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.nav li {
+		list-style: none;
+		padding: 0 20px;
+		position: relative;
+	}
+	.nav li a {
+		text-decoration: none;
+		font-size: 16px;
+		font-weight: 600;
+		color: #1a1a1a;
+		transition: 0.3s ease;
+	}
+	.nav li a:hover,
+	.nav li a.active{
+		color: #e50b0b;
+	}
+	.nav li a.active::after,
+	.nav li a:hover::after {
+	content: "";
+	width: 30%;
+	height: 2px;
+	background:#e50b0b;;
+	position: absolute;
+	bottom: -4px;
+	left: 20px;
+	}
+table td{
+	border: 1px solid #ab9168;
+}
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+    --bs-table-accent-bg: rgb(145 230 229);
+}
+tbody, td, tfoot, th, thead, tr{
+	border: 1px solid #ab9168;
+	padding: 0.5rem 0.5rem;
+}
+@media (max-width: 1366px) {
+	.nav li {
+	 padding: 0 11px;
+}}
